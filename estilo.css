@@ -1,0 +1,125 @@
+
+
+
+
+body {
+    background: #d8cbcb url('./assets/BLIND.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  .button {
+  background-color: rgb(223, 171, 171);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+}
+    
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+h1{
+   @font-face {
+  font-family: 'Bungee';
+  font-style: Bold; 
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bungee/v17/N0bU2SZBIuF2PU_0DXR1.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+    font-weight: 400;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #e8e1e1;
+    }   
+img{
+    background-color: azure;
+    border: solid #79867f 10px;
+    width: 400px;
+    display: DISPLAY-BLOCK;
+    height: auto;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    transition: all 0.3s ease-in-out;
+    }
+
+    .foto{
+        width: 400px;
+        height: auto;
+    }
+
+    .foto:hover{
+        transform: scale(1.08);
+        filter: brightness(70%);
+        color: #11da6e;
+
+        
+    }
+.button:hover {
+  background-color: #d19ae28a;
+   transform: scale(1.10);
+        filter: brightness(70%);
+        color: #88686879;
+
+}
+    p{
+   font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   color: rgb(0, 0, 0);
+    }
+
+    .subparrafo{
+   font-size: small;
+    }
+
+
+@media (max-width: 1000px) {
+
+   .foto{
+        height: fit-content;
+        width: 100vw;
+    }
+ p{
+height: fit-content;
+    }
+
+
+@keyframes CambioImagen {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+    }
+
+  
+  .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+a, a:active {
+    color: #07f06c;
+    font-size: 20px;
+}
+
+a, a:visited {
+    color: #f90000;
+}
+}
+
