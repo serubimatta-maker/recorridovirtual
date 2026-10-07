@@ -4,11 +4,14 @@ background-image: url("Assets/MapaZelda.jpg");
 .Alinear_flex { 
     display: flex;
     justify-content: center;
+    justify-content: 30;
    
-   
-    
-   
+}
 
+.foto {
+
+    height: 50px;
+    min-height:auto;
 }
-    
-}
+
+} 
