@@ -1,45 +1,27 @@
-let minutos = 7;
+let minutos = 1;
 let segundos = 0;
-cargarsegundos();
 
-function cargarsegundos() {
-    let txtsegundos;
+const elementoMinutos = document.getElementById("minutos");
+const elementoSegundos = document.getElementById("segundos");
 
-    if (segundos < 0) {
+function actualizarTemporizador() {
+    elementoMinutos.textContent = String(minutos).padStart(2, "0");
+    elementoSegundos.textContent = String(segundos).padStart(2, "0");
+}
+
+actualizarTemporizador();
+
+const temporizador = setInterval(() => {
+    if (segundos === 0) {
+        minutos--;
         segundos = 59;
-    }
-
-    if (segundos < 10) {
-        txtsegundos = `0${segundos}`;
     } else {
-        txtsegundos = segundos;
+        segundos--;
     }
 
-    document.getElementById("segundos").innerHTML = txtsegundos;
-    segundos --;
-}
+    actualizarTemporizador();
 
-
-function cargarminutos(Segundos) {
-    let txtminutos;
-   
-    if (segundos == -1 && minutos !== 0) { 
-        setTimeout(() => {
-            minutos--;
-        }, 500);
-    }else if (segundos == -1 && minutos == 0) {
-         setTimeout(() => {
-            minutos = 1;
-        }, 500);
+    if (minutos === 0 && segundos === 0) {
+        clearInterval(temporizador);
     }
-
-    if (minutos < 10) {
-        txtminutos = `1${minutos}`;
-    }else {
-        txtminutos = minutos;
-    }
-   
-}
-
-
- setinterval(cargarSegundo, 1000);
+}, 1000);
