@@ -1,0 +1,47 @@
+body {
+  background-image: url("Assets/Momia.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+} 
+.orbe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+} 
+
+@keyframes myAnimation {
+  0%   { width: 0px; }
+  100% { width: 500px; }
+}
+
+.button:hover {
+  background-color: #08a1dd8a;
+   transform: scale(1.10);
+        filter: brightness(70%);
+        color: #88686879;
+}
+.button  {
+  
+  background-color: #07acee;
+  box-shadow: 0px 0px 6px 2px #e6e5e5 inset;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+ text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-align: center;
+  line-height: 28px;
+
+}
