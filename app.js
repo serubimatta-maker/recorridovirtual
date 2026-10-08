@@ -24,4 +24,12 @@ const temporizador = setInterval(() => {
     if (minutos === 0 && segundos === 0) {
         clearInterval(temporizador);
     }
+
+    if (tiempoRestante <= 0) {
+        clearInterval(intervalo); 
+        window.location.href = 'index.html'; 
+    }
+
 }, 1000);
+
+
