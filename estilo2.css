@@ -6,6 +6,34 @@ body {
   background-size: cover;
 }
 
+@font-face {
+    font-family: "Pixel";
+    src: url("Assets/The Wild Breath of Zelda.otf") format("truetype");
+}
+
+h1 {
+    font-family: "Pixel";
+    color: #0959ec;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+H2 {
+    font-family: "Pixel";
+    color: #64e90c;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+    font-family: "Pixel";
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
 .Alinear_flex {
   height: 25vh;
 }
