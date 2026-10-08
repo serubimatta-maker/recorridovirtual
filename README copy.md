@@ -50,9 +50,23 @@ En el final aparecera el objeto que el jugador gano siendo un orbe con su texto 
 - Con la ayuda de Claude se consiguio que se sacara el texto y la interfaz para que sea transparente.
 - Se puso la imagen dentro del codigo con una animacion (@keyframes) de scale.
 
+Tambien se aprego un href con index de boton para poder mandar al usuario al principio del juego.
+
 
 ### Temporizador por Javascript
-Cuando se me ocurrio la idea del temporizador sabia que con HTML la idea no se podria realizar, por esta razon obte por el uso de Javascript, la verdad de lo poco que conozco del Javascript es por meterle mods al minecraft por esta razon me toco revisar un tutorial de Youtube 
+Cuando se me ocurrio la idea del temporizador sabia que con HTML la idea no se podria realizar, por esta razon obte por el uso de Javascript, la verdad de lo poco que conozco del Javascript es por meterle mods al minecraft por esta razon me toco revisar un tutorial de Youtube.
+
+###### ¿Como funciona?
+El codigo inicia desde el html donde se crean 2 clases y un codigo
+- La clase de minutos
+- La clase de segundo
+- La fuente (< src >) para que la html sepa de donde le mandan el codigo del cual se va a basar para poner el reloj
+
+El codigo despues se continua desde app.js 
+Donde se le informa el cronometro de que manera este debe reaccionar
+- {let} Se empieza por dandole un valor a cada clase se creo en html
+- El siguiente codigo ayuda a actualizar los minutos y segundos del cronometro 
+- Se le dice al temporizador como debe funcionar los segundos dependiendo del minuto el cual este en pantalla
 
 Tutorial que utilize: https://www.youtube.com/watch?v=RFfagLHx0yA&t=255s
 
