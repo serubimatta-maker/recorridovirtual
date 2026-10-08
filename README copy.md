@@ -23,7 +23,7 @@
 
 
 ### Tercer Puzzle
-#### El segundo puzzle consiste en un conocimiento del mundo digital en el cual se propondran dos enemigos de diferentes colores, el usuario tendra que seleccionar el enemigo con el codigo Hex #485d58, cuando el usuario presione la imagen del boboklin azul este pasara al cuarto puzzle 
+#### El tercer puzzle consiste en un conocimiento del mundo digital en el cual se propondran dos enemigos de diferentes colores, el usuario tendra que seleccionar el enemigo con el codigo Hex #485d58, cuando el usuario presione la imagen del boboklin azul este pasara al cuarto puzzle 
 
 ###### ¿Como funciona?
 - La idea de que los enemigos se movieran se empleo con un codigo de animacion dentro del CSS (@keyframe)
@@ -32,7 +32,13 @@
 - Cuando el usuario presione la imagen correcta este sera mandado al Puzzle4
 
 ### Cuarto Puzzle
+#### Para el cuarto puzzle tome en cuenta dos teorias de diseño de videojuegos siendo la curva de dificultad y el jefe final, mi idea consiste que con lo base aprendido en el puzzle 3 el usuario pueda vencer a un enemigo consistiendo en un jefe final mucho mas rapido y flexible en movimiento.
 
+###### ¿Como funciona?
+Gran parte de la teoria utilizada en el tercer puzzle se aplico para el puzzle 4, pero se modificaron 2 codigos para que la curva de dificultad aumente y el enemigo sea mas dificil de vencer.
+- El codigo de animacion keyframe se cambio los < left top > para que el enemigo tenga una mayor flexibilidad en el movimiento.
+- El codigo de animacion  animation-duration: 0.9s; se cambio para que el enemigo se mueva de manera mas rapida y el usuario tenga que tener reflejos mas rapidos
+Cuando el usuario presiona la imagen del enemigo este sera teletransportado el final.
 
 
 ### Final
@@ -42,4 +48,4 @@
 
 Tutorial que utilize: https://www.youtube.com/watch?v=RFfagLHx0yA&t=255s
 
-### CSS
+
