@@ -1,6 +1,6 @@
 # recorridovirtual 
 ## Mi idea principal consiste en llevar a un usuario, a un recorido virtual en tendra que pasar 4 diferentes acertijos, 2 de ellos siendo de inteligencia y 2 siendo de pelea para poder ganar un premio al final y un cronometro el cual traera presion al usuario de resolver el puzzle rapido.
-###Mapa
+### Mapa
 
 ### Primer Puzzle
 #### El primer puzzle consiste en un acertijo en el que al usuario se lo ofreceran 10 diferentes relojes y tiene que seleccionar el reloj correcto para poder avanzar al puzzle 2:
@@ -42,9 +42,16 @@ Cuando el usuario presiona la imagen del enemigo este sera teletransportado el f
 
 
 ### Final
+En el final aparecera el objeto que el jugador gano siendo un orbe con su texto debido descrbiendolo, junto a la musica de ganar un objeto de zelda. 
+
+###### ¿Como funciona?
+- La imagen fue sacada directamente de un pantallazo del videojuego The legend of zelda Breath of the Wild
+- Con la ayuda de Claude se consiguio que se sacara el texto y la interfaz para que sea transparente.
+- Se puso la imagen dentro del codigo con una animacion (@keyframes) de scale.
 
 
 ### Temporizador por Javascript
+
 
 Tutorial que utilize: https://www.youtube.com/watch?v=RFfagLHx0yA&t=255s
 
