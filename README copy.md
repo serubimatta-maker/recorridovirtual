@@ -14,16 +14,26 @@
 - Cuando el usuario presione la imagen 10 se hara un comando (< href >) que lo mande al puzzle2.html .
 
 ### Segundo Puzzle
-#### El segundo puzzle consiste en un acertijo en el que al usuario se lo ofrecera un texto narrando una parte de la historia de zelda, para cuando termine el texto pueda seleccionar una parte de la trifuerza (Imagen)
-este pase al puzzle 3:
+#### El segundo puzzle consiste en un acertijo en el que al usuario se lo ofrecera un texto narrando una parte de la historia de zelda, para cuando termine el texto pueda seleccionar una parte de la trifuerza (Imagen) este pase al puzzle 3:
 
 ###### ¿Como funciona?
-- Despues de que el usuaria lea el texto proporcionado este debe selecionar una parte de la trifuerza, el cual son 3 diferentes imagenes puestas
+- La mayoria de teorias que se utilizaron para el puzzle 1 se aplicaran al puzzle 2 para ahorrar recursos y tiempo.
+- Despues de que el usuario lea el texto proporcionado este debe selecionar una parte de la trifuerza, el cual son 3 diferentes imagenes puestas en orden.
+- Cuando el usuario presione la imagen del medio, este sera mandado al puzzle3.html 
 
 
 ### Tercer Puzzle
+#### El segundo puzzle consiste en un conocimiento del mundo digital en el cual se propondran dos enemigos de diferentes colores, el usuario tendra que seleccionar el enemigo con el codigo Hex #485d58, cuando el usuario presione la imagen del boboklin azul este pasara al cuarto puzzle 
+
+###### ¿Como funciona?
+- La idea de que los enemigos se movieran se empleo con un codigo de animacion dentro del CSS (@keyframe)
+- Se probo en uno de los enemigos, cuando se comprobo que funcionaba la idea se le aplico a los 2 enemigos
+- Cada uno tiene una animacion diferente que esta puesta en un loop para que de esta manera el usuario pueda memorizarse su patron
+- Cuando el usuario presione la imagen correcta este sera mandado al Puzzle4
 
 ### Cuarto Puzzle
+
+
 
 ### Final
 
