@@ -1,3 +1,17 @@
+
+@font-face {
+    font-family: "Pixel";
+    src: url("Assets/The Wild Breath of Zelda.otf") format("truetype");
+}
+
+h1 {
+    font-family: "Pixel";
+    color: #0959ec;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 body {
 background-image: url("Assets/MapaZelda.jpg");
 
@@ -13,5 +27,16 @@ background-image: url("Assets/MapaZelda.jpg");
     height: 50px;
     min-height:auto;
 }
+
+@keyframes CambioImagen {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+    }
+    
+.foto:hover{
+        transform: scale(1.08);
+        filter: brightness(70%);
+        color: #11da6e;   } 
 
 } 
