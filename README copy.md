@@ -1,6 +1,7 @@
 # recorridovirtual 
 ## Mi idea principal consiste en llevar a un usuario, a un recorido virtual en tendra que pasar 4 diferentes acertijos, 2 de ellos siendo de inteligencia y 2 siendo de pelea para poder ganar un premio al final y un cronometro el cual traera presion al usuario de resolver el puzzle rapido.
 ### Mapa
+El mapa es donde el jugador incia su recorrido para que presione la imagen del santuario, y mandarlo al puzzle1.Html para empezar con los puzzles.
 
 ### Primer Puzzle
 #### El primer puzzle consiste en un acertijo en el que al usuario se lo ofreceran 10 diferentes relojes y tiene que seleccionar el reloj correcto para poder avanzar al puzzle 2:
@@ -51,7 +52,7 @@ En el final aparecera el objeto que el jugador gano siendo un orbe con su texto 
 
 
 ### Temporizador por Javascript
-
+Cuando se me ocurrio la idea del temporizador sabia que con HTML la idea no se podria realizar, por esta razon obte por el uso de Javascript, la verdad de lo poco que conozco del Javascript es por meterle mods al minecraft por esta razon me toco revisar un tutorial de Youtube 
 
 Tutorial que utilize: https://www.youtube.com/watch?v=RFfagLHx0yA&t=255s
 
