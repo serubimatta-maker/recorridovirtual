@@ -1,5 +1,5 @@
 # recorridovirtual 
-## Mi idea principal consiste en llevar a un usuario, a un recorido virtual en tendra que pasar 4 diferentes acertijos, 2 de ellos siendo de inteligencia y 2 siendo de pelea para poder ganar un premio al final.
+## Mi idea principal consiste en llevar a un usuario, a un recorido virtual en tendra que pasar 4 diferentes acertijos, 2 de ellos siendo de inteligencia y 2 siendo de pelea para poder ganar un premio al final y un cronometro el cual traera presion al usuario de resolver el puzzle rapido.
 ###Mapa
 
 ### Primer Puzzle
@@ -8,16 +8,17 @@
 ###### ¿Como funciona?
 
 - Se empezo creando los 10 imagenes relojes diferentes con ayuda de Chat GPT, despues de esto estas se recortaron para poder ponerlas dentro de un codigo de imagen.
-- Cuando se selecciono la imagen final, a esta se le añadieron 2 partes para poder dar una ilusion de pasar a la siguiente zona:
+- Cuando se selecciono la imagen final siendo la numero 10 con la hora 11:05, a esta se le añadieron 2 partes para poder dar una ilusion de pasar a la siguiente zona:
 - Un elemento de ancla (< a >) para que la imagen se pudiera vincular a un link al puzzle 2.
-- El codigo de audio (< audio >) para ambientar lo que dentro del usuariao se deberia intepretar como un ''santuario''. 
+- El codigo de audio (< audio >) para ambientar lo que dentro del usuariao se deberia intepretar como un ''santuario''.
+- Cuando el usuario presione la imagen 10 se hara un comando (< href >) que lo mande al puzzle2.html .
 
 ### Segundo Puzzle
 #### El segundo puzzle consiste en un acertijo en el que al usuario se lo ofrecera un texto narrando una parte de la historia de zelda, para cuando termine el texto pueda seleccionar una parte de la trifuerza (Imagen)
 este pase al puzzle 3:
 
 ###### ¿Como funciona?
-
+- Despues de que el usuaria lea el texto proporcionado este debe selecionar una parte de la trifuerza, el cual son 3 diferentes imagenes puestas
 
 
 ### Tercer Puzzle
@@ -28,5 +29,7 @@ este pase al puzzle 3:
 
 
 ### Temporizador por Javascript
+
+Tutorial que utilize: https://www.youtube.com/watch?v=RFfagLHx0yA&t=255s
 
 ### CSS
