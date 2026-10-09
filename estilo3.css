@@ -1,5 +1,5 @@
 body {
-  background-image: url("Assets/Momia.avif");
+  background-image: url("Assets/Momia2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -43,6 +43,6 @@ body {
   transition: all 0.3s ease;
   text-align: center;
   line-height: 28px;
-  
+
 
 }
